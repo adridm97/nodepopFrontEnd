@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nuevo Anuncio</title>
+    <link rel="stylesheet" href="nav.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h1 class="titulo">Nuevo Anuncio</h1>
+    <div class="messages"></div>
+    <div class="loader"></div>
+    <form novalidate class="form">
+      <p>
+        Nombre:
+        <input
+          type="text"
+          name="nombre"
+          class="input-form"
+          required
+          autofocus
+        />
+      </p>
+      <p>
+        Precio:
+        <input type="number" name="precio" class="input-form" required />
+      </p>
+      <p>
+        Estado:
+        <select name="estado" class="input-form" required>
+          <option>Compra</option>
+          <option>Venta</option>
+        </select>
+      </p>
+      <p>
+        Foto:
+        <input type="text" name="foto" class="input-form" />
+      </p>
+      <button type="submit">Crear</button>
+    </form>
+    <script type="module" src="js/new.js"></script>
+  </body>
+</html>

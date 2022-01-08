@@ -1,0 +1,45 @@
+{
+  "users": [
+    {
+      "username": "fdffds",
+      "password": "$2b$10$e/jjP2hYXeKXew45nqU.d.LUjzRcUJZ8/RkS7qAJguijroUgAuBOe",
+      "id": 1
+    },
+    {
+      "username": "aduenas",
+      "password": "$2b$10$dU8D2GoLkTetGYXGjq.uxOKFZ..l0c.aoEYQXHMBcGDzMw9Ubr3t.",
+      "id": 2
+    },
+    {
+      "username": "admin",
+      "password": "$2b$10$pZtJ53WFCDjeqwpMjdebvetgAOaKOO4tmNtFBVwWMNjYHu5AuHg4C",
+      "id": 3
+    }
+  ],
+  "anuncios": [
+    {
+      "id": 1,
+      "nombre": "Pala de padel",
+      "precio": 229,
+      "estado": "Venta",
+      "foto": "https://www.padelreference.com/1778-large_default/raquette-de-padel-black-crown-yeti.jpg",
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "nombre": "Funko Yoda",
+      "precio": 180,
+      "estado": "Compra",
+      "foto": "https://cdn.shopify.com/s/files/1/2437/4099/products/ae25aeae-175a-402d-af38-77a1e897fcfe_1280x1280.png?v=1606238550",
+      "userId": 2
+    },
+    {
+      "id": 3,
+      "nombre": "Manga One Piece Episode 999",
+      "precio": 12,
+      "estado": "Compra",
+      "foto": "https://wasabimanga.com/wp-content/uploads/2021/03/OnePiece92-238x300.png",
+      "userId": 1
+    }
+  ]
+}

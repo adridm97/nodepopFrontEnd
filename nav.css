@@ -1,0 +1,20 @@
+.menu-nav {
+    display: flex;
+    background-color: #24303c;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 50px;
+    opacity: 0.90;
+}
+
+#titulo {
+    color: burlywood;
+    font-size: 25px;
+    margin: .5rem 1rem;
+}
+
+#burger-checkbox,
+#burger-label {
+    display: none;
+}
